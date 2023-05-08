@@ -1,0 +1,28 @@
+[school - 학생 성적 처리 프로그래]
+학생 성적을 입력받아 저장하고 검색/삭제
+
+school.ui.SchoolMain - 프로그램의 시작
+school.ui.SchoolUI - 사용자 인터페이스
+school.service.SchoolService - 기능 단위의 메소드 정의
+school.dao.SchoolDAO - 데이터 처리
+school.vo.Student/Teacher/Person - VO클래스
+
+
+
+[검색]
+검색할 이름 : 길동
+
+김길동 1111 0000 100
+홍길동 1111 0000 100
+길동희 1111 0000 100
+
+----------------
+[dao에서 해야할 일]
+1. String으로 이름의 일부분을 전달받는다
+2. 새로운 ArrayList<Student> 객체를 생성한다
+3. 0부터 마지막 index까지 ArrayList내의 Student객체를 읽는다
+4. 각 학생의 이름과 전달받은 문자열을 비교
+5. 이름의 일부분이 일치하면 그 Student객체를 새로만든 ArrayList에 저장
+6. 새로만든 ArrayList객체를 리턴
+----------------
+학번검색 / 기준이상의 학생들 검색 / 
