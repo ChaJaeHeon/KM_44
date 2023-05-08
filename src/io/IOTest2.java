@@ -24,7 +24,7 @@ public class IOTest2 {
 			out.write("\n");
 		} 
 		catch (IOException e) {
-			System.out.println("쓰기 작업 중 오류");
+			System.out.println("쓰기 작업 중 오류임");
 		}
 		
 		//스트림 닫기
